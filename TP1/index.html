@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer html</title>
+</head>
+<body>
+    <header id="estructura">
+            <h1>1.Estructura básica del documento HTML</h1>
+            <p>Este documento HTML tiene tiene una estructura básica que incluye la declaración del DOCTYPE, etiqueta de metadatos y un título</p>
+    </header>
+    <section>
+        <h2>2.Encabezados y propiedades del texto</h2>
+        <h3><b>Este es un texto en negrita.</b></h3>
+        <h4><i>Este es un texto en cursiva.</i></h4> 
+        <h5><u>Este es un texto subrayado.</u></h5> 
+    </section>
+    <div>
+        <h3>3.Divisiones y agrupacion de contenido</h3>
+        <h5>primera sección</h5>
+        <p>contenido de la primera sección agrupada en un div</p>
+    </div>
+    <div>
+        <h5>segunda sección</h5>
+        <p>contenido de la segunda seccion agrupada en un div</p>
+    </div>
+    <div>
+        <h2>4.Enlaces y listas</h2>
+        <p>visita nuestro <a href="https://www.w3schools.com/html/html_attributes.asp">sitio web </a>para más información</p>
+        <h6>Enlaces internos:</h6>
+        <ul>
+            <li><a href="estructura">Ir a estructura</a></li>
+            <li><a href="multimedia">Ir a multimedia</a></li>
+            <li><a href="formulario">Ir a formulario</a></li>
+        </ul>
+        <p>Lista desordenada</p>
+        <ul>
+            <li>primer item de una lista desordenada</li>
+            <li>segundo item de una lista desordenada</li>
+        </ul>
+        <ol>
+            <li>primer item de una lista ordenada</li>
+            <li>segundo item de una lista ordenada</li>
+        </ol>
+    </div>
+    <article id="multimedia">
+        <h3>5.Elementos multimedia</h3>
+        <img src="imagenes/beagle.jpeg" alt="2 perros beagle">
+        <video src="videos/Beagle running in slow motion.mp4" width="416" height="300" controls></video>
+        <audio src="audios/Beagle ladrando.mp3" controls></audio>
+    </article>
+    <div>
+        <h3>6.Tablas</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="formulario">
+        <h3>7.Formularios</h3>
+        <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre">
+       <label for="email">Email:</label>
+       <input type="text" id="email">
+       <label for="mensaje">Mensaje:</label>
+       <input type="text" id="mensaje">
+       <button>enviar</button>
+    </div>
+    <footer>
+        <p>2024 trabajo practico HTML</p>
+    </footer>
+</body>
+</html>
